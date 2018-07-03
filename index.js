@@ -12,8 +12,8 @@ function nowServing(now){
   } 
   else {
     var name = now[0];
-    now.splice(0, 1);
     return "Currently serving " + name + ".";
+    now.splice(0,1);
   }
 }
 
